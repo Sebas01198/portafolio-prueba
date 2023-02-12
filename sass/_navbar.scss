@@ -1,0 +1,16 @@
+.navbar{
+    display: none;
+    width: 500px;
+    &__items{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    &__link{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    @media (min-width:1024px){
+       display: block;
+    }
+}
