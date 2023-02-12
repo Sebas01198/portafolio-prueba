@@ -245,7 +245,6 @@ body {
 .main-container {
   width: 390px;
   margin: auto;
-  border: 1px solid red;
   height: auto;
   position: relative;
 }
